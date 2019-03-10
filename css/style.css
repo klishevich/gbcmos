@@ -1,0 +1,166 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #03a9f4;
+  /*color: #114397;*/
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.imgclass {
+  padding: 30px;
+  background-color: white;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+/*body {
+  background-color: lightgray;
+}*/
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+img.my-logo {
+  margin-top: 5px;
+  height: 50px;
+}
+
+.my-menu {
+  margin-left: 60px;
+}
+
+.my-title {
+  padding-top: 10px;
+  color: white;
+}
+
+.my-lotte {
+  margin-top: 40px;
+  /*margin-bottom: 30px;*/
+}
+
+.my-lotte-1 {
+  margin-bottom: 20px;
+}
+
+.my-lotte-2 {
+  margin-top: 10px;
+}
+
+.my-lotte-text {
+  margin-top: 20px;
+}
+
+li a.my-submenu-item {
+  color: hsla(0, 1%, 27%, 0.836);
+  font-size: 1rem;
+}
+
+.my-list {
+  text-align: left;
+}
+
+.my-company-row {
+  margin-top: 40px;
+}
+
+.my-company-img {
+  margin-bottom: 20px;
+}
+
+.my-company h4 {
+  margin-top: 0;
+}
+
+.my-company-url {
+  margin-bottom: 10px;
+}
+
+.card-content .card-title.my-product {
+  margin-bottom: 20px;
+}
+
+.my-product-desc {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul.my-list {
+  margin-top: 10px;
+  padding-left: 30px;
+  list-style-type: circle;
+}
+
+ul.my-list > li {
+  list-style-type: circle;
+}
+
+a.brown-text.text-lighten-3.my-codingbootcampru {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+img.my-logo-footer {
+  margin-top: 14px;
+}
